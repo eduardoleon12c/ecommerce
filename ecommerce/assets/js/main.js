@@ -197,8 +197,9 @@ function HOMEINITTEMPLATE($, undefined) {
       headerIconToggle: function() {
 
           $('.my-account > a').on('click', function(e) {
+            console.log("Toggle function executed");
               $(this).toggleClass('open').siblings().toggleClass('open');
-          })
+          });
       },
 
       priceRangeSlider: function(e) {
